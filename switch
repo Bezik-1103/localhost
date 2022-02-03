@@ -1,0 +1,61 @@
+ // switch(true) {
+
+            //     1if
+            //     case(numberQuestion >= 0):
+            //     case(numberQuestion <= questions.length -1):
+            //         quetionTitle.textContent = `${questions[indexQuestion].question}`
+            //         renderAnswers(indexQuestion)
+            //         nextButton.classList.remove('d-none')
+            //         prevButton.classList.remove('d-none')
+            //         sendButton.classList.add('d-none')
+            //     break;
+
+            //     2if
+            //     case(numberQuestion === 0):
+            //         prevButton.classList.add('d-none')
+            //     break;
+
+            //     3if
+            //     case(numberQuestion === questions.length):
+            //         nextButton.classList.add('d-none')
+            //         prevButton.classList.add('d-none')
+            //         sendButton.classList.remove('d-none')
+            //         formAnswers.innerHTML= `
+            //         <div class="form-group">
+            //             <label for="numberPhone">Enter your number</label>
+            //             <input type="phone" class="form-control" id="numberPhone">
+            //         </div>
+            //         `
+            //     break;
+
+            //         4if
+            //     case(numberQuestion === questions.length + 1):
+            //         formAnswers.textContent = 'Спасибо за пройденный тест!'
+            //         setTimeout(
+            //         () => {
+            //             modalBlock.classList.remove('d-block')
+            //         },2000
+            //         )
+            //     break;
+
+            //     default:
+            //         console.log('ERRRRRORR');
+            // }
+
+
+
+                // switch(true){
+            //     case(numberQuestion >= 0 ):
+            //     case(numberQuestion <= questions.length -1):
+            //         obj [`${index}_${questions[numberQuestion].question}`] = input.value
+            //     break;
+
+            //     case(numberQuestion === questions.length):
+            //         obj [`Номер телефона`] = input.value
+            //     break;
+
+
+
+            //     default:
+            //         console.log('ERRRRRORR');
+            // }
